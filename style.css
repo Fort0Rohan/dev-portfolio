@@ -1,0 +1,13 @@
+body{
+    background-color: #f6f4d2;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 70px;
+    margin-left: 15px;
+}
+
+.headname{
+    color: #e0855d;
+}
