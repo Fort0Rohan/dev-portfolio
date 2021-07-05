@@ -8,15 +8,17 @@ h1 {
   font-size: 50px;
 }
 
-section {
+h2 {
+  font-size: 40px;
+}
+
+.sec-flex {
   display: flex;
   margin-bottom: 150px;
 }
 
 .headname {
   color: #e0855d;
-  padding-left: 30px;
-  margin-right: 30px;
 }
 
 .half-width {
@@ -34,6 +36,16 @@ section {
   width: 100%;
   text-align: justify;
   margin-right: 2%;
+}
+
+.half-width3 {
+  width: 50%;
+  text-align: justify;
+  box-shadow: 18px 10px 55px gray;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 10px 50px;
+  border-radius: 12px;
 }
 
 .link-button {
@@ -59,7 +71,26 @@ section {
   background-size: 75px;
 }
 
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 #bg {
   width: 620px;
   height: 600px;
+}
+
+#master {
+  border-left: 12px solid;
+  border-image: linear-gradient(#ff4444, #a12828);
+  border-image-slice: 1;
+  border-radius: 12px;
+}
+
+#novice {
+  border-left: 12px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
 }
