@@ -45,13 +45,14 @@ h2 {
   margin-right: 5%;
   margin-left: 5%;
   padding: 10px 50px;
-  border-radius: 12px;
+  border-radius: 20px;
+  background-image: linear-gradient(90deg, #f6f4d2 60%, #d4e09b);
 }
 
 .link-button {
   text-decoration: none;
   color: whitesmoke;
-  background-image: linear-gradient(#f0452b, #a44a3f);
+  background-image: linear-gradient(0deg, #f0452b, #a44a3f);
   padding: 15px 40px;
   margin-left: 220px;
   font-weight: 800;
@@ -86,7 +87,6 @@ h2 {
   border-left: 12px solid;
   border-image: linear-gradient(#ff4444, #a12828);
   border-image-slice: 1;
-  border-radius: 12px;
 }
 
 #novice {
