@@ -67,14 +67,14 @@ h2 {
 .dream-big {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 100% 75%;
   background-size: 75px;
 }
 
 .experience {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: 0 75%;
 }
 
 #bg {
