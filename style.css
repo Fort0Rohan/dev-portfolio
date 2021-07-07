@@ -68,7 +68,6 @@ h2 {
 }
 
 .top-banner {
-  position: sticky;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
   background-size: 60%;
