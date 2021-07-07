@@ -46,20 +46,29 @@ h2 {
   margin-left: 5%;
   padding: 10px 50px;
   border-radius: 20px;
-  background-image: linear-gradient(90deg, #f6f4d2 60%, #d4e09b);
+  background-image: linear-gradient(135deg, #fef7dc 33%, #e6ddc6);
 }
 
 .link-button {
   text-decoration: none;
   color: whitesmoke;
-  background-image: linear-gradient(0deg, #f0452b, #a44a3f);
+  background-image: linear-gradient(180deg, #f0452b, #a44a3f);
   padding: 15px 40px;
   margin-left: 220px;
-  font-weight: 800;
-  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 11px;
+  box-shadow: 8px 0px 30px gray;
+}
+
+.link-button:hover {
+  padding: 12px 36px;
+  font-weight: 500;
+  box-shadow: 8px 0px 15px gray;
 }
 
 .top-banner {
+  position: sticky;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
   background-size: 60%;
@@ -93,6 +102,11 @@ h2 {
   border-left: 12px solid;
   border-image: linear-gradient(blue, cyan);
   border-image-slice: 1;
+}
+
+#exp {
+  position: relative;
+  left: 65px;
 }
 
 footer p {
